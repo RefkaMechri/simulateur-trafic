@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {"nom": "Route 1", "longueur": 1.0, "limite_vitesse": 50},
+    {"nom": "Route 2", "longueur": 2.0, "limite_vitesse": 80}
+  ],
+  "vehicules": [
+    {"id": "V1", "route": 0, "position": 0.0, "vitesse": 60},
+    {"id": "V2", "route": 1, "position": 1.0, "vitesse": 70},
+        {"id": "V3", "route": 1, "position": 1.0, "vitesse": 50}
+
+  ]
+}

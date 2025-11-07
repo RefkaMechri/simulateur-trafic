@@ -1,0 +1,691 @@
+[
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "vitesse_moyenne": 65.0
+  },
+  {
+    "date": "2025-10-10 09:24:25",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 70.0,
+        "vitesse_minimale": 70,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 0.5,
+        "temps_parcours_moyen": 1.71,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-10 09:24:30",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 70.0,
+        "vitesse_minimale": 70,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 0.5,
+        "temps_parcours_moyen": 1.71,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-10 09:25:27",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "nb_vehicules": 2,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-10 09:25:32",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "nb_vehicules": 2,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-10 09:25:38",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "nb_vehicules": 2,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-10 09:25:43",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "nb_vehicules": 2,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-10 09:25:46",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 1,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "nb_vehicules": 2,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:33:33",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:33:35",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:33:43",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:33:49",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:33:55",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:35:56",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:35:58",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:36:01",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:36:03",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-24 09:36:06",
+    "statistiques": {
+      "A1": {
+        "vitesse_moyenne": 0,
+        "vitesse_minimale": 0,
+        "vitesse_maximale": 0,
+        "ecart_type_vitesse": 0,
+        "nb_vehicules": 0,
+        "densite": 0,
+        "temps_parcours_moyen": 0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-31 09:50:53",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-31 09:50:56",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-31 09:50:59",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-31 09:51:01",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-31 09:51:05",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-31 09:51:07",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-31 09:51:09",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  },
+  {
+    "date": "2025-10-31 09:51:10",
+    "statistiques": {
+      "Route 1": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 60,
+        "vitesse_maximale": 60,
+        "ecart_type_vitesse": 0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 1.0,
+        "zone_congestion": false
+      },
+      "Route 2": {
+        "vitesse_moyenne": 60.0,
+        "vitesse_minimale": 50,
+        "vitesse_maximale": 70,
+        "ecart_type_vitesse": 10.0,
+        "densite": 1.0,
+        "temps_parcours_moyen": 2.0,
+        "zone_congestion": false
+      }
+    }
+  }
+]

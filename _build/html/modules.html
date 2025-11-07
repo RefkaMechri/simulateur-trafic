@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang="fr" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Modules &#8212; Documentation Simulateur-Trafic 1.0.0</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=05dadb3a"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/translations.js?v=e6b791cb"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="prev" title="Simulateur-Trafic" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="modules">
+<h1>Modules<a class="headerlink" href="#modules" title="Lien vers cette rubrique">¶</a></h1>
+<p>Documentation des modules du projet Simulateur-Trafic.</p>
+<section id="module-simulateur_trafic.core.analyseur">
+<span id="core"></span><h2>Core<a class="headerlink" href="#module-simulateur_trafic.core.analyseur" title="Lien vers cette rubrique">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="simulateur_trafic.core.analyseur.Analyseur">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">simulateur_trafic.core.analyseur.</span></span><span class="sig-name descname"><span class="pre">Analyseur</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">reseau</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.core.analyseur.Analyseur" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Bases : <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>La classe Analyseur permet d’effectuer une analyse statistique du trafic sur un réseau routier.</p>
+<p>Elle propose des méthodes pour calculer des indicateurs tels que la vitesse moyenne, l’écart-type des vitesses,
+la densité de trafic, le temps moyen de parcours et l’identification des zones de congestion sur chaque route.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="simulateur_trafic.core.analyseur.Analyseur.calculer_statistiques">
+<span class="sig-name descname"><span class="pre">calculer_statistiques</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.core.analyseur.Analyseur.calculer_statistiques" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Calcule les statistiques de trafic pour chaque route du réseau.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Renvoie<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Un dictionnaire contenant, pour chaque route, les indicateurs statistiques suivants :
+- vitesse_moyenne (float) : Vitesse moyenne des véhicules sur la route.
+- vitesse_minimale (float) : Vitesse minimale observée sur la route.
+- vitesse_maximale (float) : Vitesse maximale observée sur la route.
+- ecart_type_vitesse (float) : Écart-type des vitesses sur la route.
+- nb_vehicules (int) : Nombre de véhicules présents sur la route.
+- densite (float) : Densité de trafic (nombre de véhicules par unité de longueur).
+- temps_parcours_moyen (float) : Temps moyen de parcours sur la route (en minutes).
+- zone_congestion (bool) : Indique si la route est en situation de congestion.</p>
+</dd>
+<dt class="field-even">Type renvoyé<span class="colon">:</span></dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-simulateur_trafic.models.vehicule">
+<span id="models"></span><h2>Models<a class="headerlink" href="#module-simulateur_trafic.models.vehicule" title="Lien vers cette rubrique">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="simulateur_trafic.models.vehicule.Vehicule">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">simulateur_trafic.models.vehicule.</span></span><span class="sig-name descname"><span class="pre">Vehicule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">identifiant</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">route</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vitesse</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.models.vehicule.Vehicule" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Classe représentant un véhicule circulant sur une route.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="simulateur_trafic.models.vehicule.Vehicule.identifiant">
+<span class="sig-name descname"><span class="pre">identifiant</span></span><a class="headerlink" href="#simulateur_trafic.models.vehicule.Vehicule.identifiant" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Identifiant unique du véhicule.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="simulateur_trafic.models.vehicule.Vehicule.route">
+<span class="sig-name descname"><span class="pre">route</span></span><a class="headerlink" href="#simulateur_trafic.models.vehicule.Vehicule.route" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Instance de la route sur laquelle le véhicule circule.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference internal" href="#simulateur_trafic.models.route.Route" title="simulateur_trafic.models.route.Route">Route</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="simulateur_trafic.models.vehicule.Vehicule.position">
+<span class="sig-name descname"><span class="pre">position</span></span><a class="headerlink" href="#simulateur_trafic.models.vehicule.Vehicule.position" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Position actuelle du véhicule sur la route (en mètres).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="simulateur_trafic.models.vehicule.Vehicule.vitesse">
+<span class="sig-name descname"><span class="pre">vitesse</span></span><a class="headerlink" href="#simulateur_trafic.models.vehicule.Vehicule.vitesse" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Vitesse actuelle du véhicule (en km/h).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simulateur_trafic.models.vehicule.Vehicule.avancer">
+<span class="sig-name descname"><span class="pre">avancer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">delta_t</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.models.vehicule.Vehicule.avancer" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Fait avancer le véhicule sur sa route en fonction du temps écoulé.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>delta_t</strong> (<em>float</em>) – Durée pendant laquelle le véhicule avance (en minutes).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simulateur_trafic.models.vehicule.Vehicule.changer_de_route">
+<span class="sig-name descname"><span class="pre">changer_de_route</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nouvelle_route</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.models.vehicule.Vehicule.changer_de_route" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Permet au véhicule de changer de route.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>nouvelle_route</strong> (<a class="reference internal" href="#simulateur_trafic.models.route.Route" title="simulateur_trafic.models.route.Route"><em>Route</em></a>) – Nouvelle instance de la route sur laquelle le véhicule va circuler.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class" id="module-simulateur_trafic.models.route">
+<dt class="sig sig-object py" id="simulateur_trafic.models.route.Route">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">simulateur_trafic.models.route.</span></span><span class="sig-name descname"><span class="pre">Route</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nom</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">longueur</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limite_vitesse</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.models.route.Route" title="Lien vers cette définition">¶</a></dt>
+<dd><blockquote>
+<div><p>nom (str) : Nom de la route.
+longueur (float) : Longueur de la route en kilomètres.
+limite_vitesse (float) : Limite de vitesse sur la route en km/h.
+vehicules (list) : Liste des véhicules présents sur la route.</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Méthodes disponibles :</dt><dd><ul class="simple">
+<li><p>ajouter_vehicule(vehicule) : Ajoute un véhicule à la route.</p></li>
+<li><p>mettre_a_jour_vehicules(delta_t) : Met à jour la position de chaque véhicule sur la route en fonction du temps écoulé (delta_t en minutes).</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="simulateur_trafic.models.route.Route.ajouter_vehicule">
+<span class="sig-name descname"><span class="pre">ajouter_vehicule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vehicule</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.models.route.Route.ajouter_vehicule" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Ajoute un véhicule à la route.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>vehicule</strong> (<a class="reference internal" href="#simulateur_trafic.models.vehicule.Vehicule" title="simulateur_trafic.models.vehicule.Vehicule"><em>Vehicule</em></a>) – Instance du véhicule à ajouter à la route.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simulateur_trafic.models.route.Route.mettre_a_jour_vehicules">
+<span class="sig-name descname"><span class="pre">mettre_a_jour_vehicules</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">delta_t</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.models.route.Route.mettre_a_jour_vehicules" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Met à jour la position de chaque véhicule sur la route en fonction du temps écoulé.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>delta_t</strong> (<em>float</em>) – Temps écoulé en minutes depuis la dernière mise à jour.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class" id="module-simulateur_trafic.models.reseau">
+<dt class="sig sig-object py" id="simulateur_trafic.models.reseau.ReseauRoutier">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">simulateur_trafic.models.reseau.</span></span><span class="sig-name descname"><span class="pre">ReseauRoutier</span></span><a class="headerlink" href="#simulateur_trafic.models.reseau.ReseauRoutier" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Classe professionnelle représentant un réseau routier composé de plusieurs routes.</p>
+<p>Cette classe gère un ensemble de routes et permet la simulation du trafic sur celles-ci.
+Elle fournit des méthodes robustes pour l’ajout de routes et la simulation de l’évolution
+des véhicules sur chaque route durant un intervalle de temps spécifié.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="simulateur_trafic.models.reseau.ReseauRoutier.routes">
+<span class="sig-name descname"><span class="pre">routes</span></span><a class="headerlink" href="#simulateur_trafic.models.reseau.ReseauRoutier.routes" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Liste des instances de la classe Route constituant le réseau routier.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simulateur_trafic.models.reseau.ReseauRoutier.ajouter_route">
+<span class="sig-name descname"><span class="pre">ajouter_route</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">route</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#simulateur_trafic.models.route.Route" title="simulateur_trafic.models.route.Route"><span class="pre">Route</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#simulateur_trafic.models.reseau.ReseauRoutier.ajouter_route" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Ajoute une instance de Route au réseau routier.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="simulateur_trafic.models.reseau.ReseauRoutier.simuler">
+<span class="sig-name descname"><span class="pre">simuler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">delta_t</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#simulateur_trafic.models.reseau.ReseauRoutier.simuler" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Simule l’évolution du trafic sur chaque route du réseau pendant l’intervalle de temps delta_t.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id0">
+<span class="sig-name descname"><span class="pre">ajouter_route</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">route</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#id0" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Ajoute une route au réseau routier.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>route</strong> (<a class="reference internal" href="#simulateur_trafic.models.route.Route" title="simulateur_trafic.models.route.Route"><em>Route</em></a>) – Instance de la classe Route à ajouter au réseau.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="id1">
+<span class="sig-name descname"><span class="pre">simuler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">delta_t</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#id1" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Simule l’évolution du trafic sur chaque route du réseau pendant l’intervalle de temps spécifié.</p>
+<p>Cette méthode parcourt toutes les routes du réseau et met à jour l’état des véhicules
+sur chacune d’elles en fonction du paramètre delta_t.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Paramètres<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>delta_t</strong> (<em>float</em>) – Intervalle de temps (en secondes) pour la simulation de l’évolution du trafic.</p>
+</dd>
+<dt class="field-even">Type renvoyé<span class="colon">:</span></dt>
+<dd class="field-even"><p><span class="sphinx_autodoc_typehints-type"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></span></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-simulateur_trafic.io_utils.export">
+<span id="io"></span><h2>IO<a class="headerlink" href="#module-simulateur_trafic.io_utils.export" title="Lien vers cette rubrique">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="simulateur_trafic.io_utils.export.Export">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">simulateur_trafic.io_utils.export.</span></span><span class="sig-name descname"><span class="pre">Export</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nom_fichier</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'resultats.json'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.io_utils.export.Export" title="Lien vers cette définition">¶</a></dt>
+<dd><dl class="py method">
+<dt class="sig sig-object py" id="simulateur_trafic.io_utils.export.Export.sauvegarder">
+<span class="sig-name descname"><span class="pre">sauvegarder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">stats</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#simulateur_trafic.io_utils.export.Export.sauvegarder" title="Lien vers cette définition">¶</a></dt>
+<dd><p>Sauvegarde les nouvelles statistiques dans le fichier JSON</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Simulateur-Trafic</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Plan de la documentation:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-simulateur_trafic.core.analyseur">Core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-simulateur_trafic.models.vehicule">Models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-simulateur_trafic.io_utils.export">IO</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="Chapitre précédent">Simulateur-Trafic</a></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Refka Mechri.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/modules.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
