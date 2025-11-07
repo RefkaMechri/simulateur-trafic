@@ -191,7 +191,7 @@ make html
 
 **Refka Mechri**
 
-- Email: refka.mechri@example.com
+- Email: ref.kaa2002@gmail.com
 
 ## 📝 Licence
 
