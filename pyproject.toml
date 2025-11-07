@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulateur-trafic-refka"
+version = "1.0.0"
+authors = [
+    {name = "Refka Mechri", email = "ref.kaa2002@gmail.com"},
+]
+description = "Simulateur de trafic routier avec analyse statistique et visualisation"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+keywords = ["traffic", "simulation", "transport", "modeling"]
+
+dependencies = [
+    "matplotlib>=3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "sphinx>=5.0",
+    "sphinx-autodoc-typehints>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/RefkaMechri/simulateur-trafic"
+Repository = "https://github.com/RefkaMechri/simulateur-trafic"
+
+# Configuration pour structure existante (pas de src/)
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["core*", "models*", "io_utils*", "exceptions"]
+exclude = ["tests*", "docs*", "data*"]
+
+[tool.setuptools.package-data]
+"*" = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

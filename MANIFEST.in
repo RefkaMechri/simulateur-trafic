@@ -1,0 +1,19 @@
+# Inclure le README et la LICENSE
+include README.md
+include LICENSE
+
+# Inclure les fichiers de configuration
+include requirements.txt
+include pyproject.toml
+include setup.py
+
+# Inclure les fichiers de données
+recursive-include data *.json
+
+# Exclure les fichiers inutiles
+exclude resultats.json
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .DS_Store
